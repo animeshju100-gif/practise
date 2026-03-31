@@ -151,6 +151,8 @@ AS
   THEN INSERT (EID, EName, Email, Phoneno, Address, Companyname, Exp, Start_date, IS_ACTIVE)
        VALUES (chk.EID, chk.EName, chk.Email, chk.Phoneno, chk.Address, chk.Companyname, chk.Exp, CURRENT_DATE, TRUE);
 
+select * from Employee_type1;
+
 
 
 
